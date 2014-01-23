@@ -1,0 +1,34 @@
+src/*.exe
+src/minicoin
+src/minicoind
+src/test_minicoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.minicoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+minicoin-qt
+minicoin-Qt.app
+
+# Unit-tests
+Makefile.test
+minicoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
